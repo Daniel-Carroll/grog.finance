@@ -1,14 +1,15 @@
-import React from "react"
+import type { NextPage } from 'next'
+import React from 'react'
 import styles from '../../styles/Home.module.css'
 
-function Profile() {
+const Community: NextPage = () => {
     return (
         <div className={styles.container}>
             <main className={styles.main}>
-                User Profile
+                Community
             </main>
         </div>
     )
 }
 
-export default Profile
+export default Community

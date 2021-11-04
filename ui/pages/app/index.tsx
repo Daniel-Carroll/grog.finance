@@ -1,14 +1,15 @@
-import React from "react"
+import type { NextPage } from 'next'
+import React from 'react'
 import styles from '../../styles/Home.module.css'
 
-function Profile() {
+const GrogApp: NextPage = () => {
     return (
         <div className={styles.container}>
             <main className={styles.main}>
-                User Profile
+                App
             </main>
         </div>
     )
 }
 
-export default Profile
+export default GrogApp

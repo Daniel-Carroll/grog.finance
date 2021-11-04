@@ -1,12 +1,14 @@
 import React from "react";
-import Navbar from "./navbar";
+import Footer from "./footer";
+import Header from "./header";
 
 //@ts-ignore
 export default function Layout({ children }) {
-    return (
-      <>
-        <Navbar />
-        <main>{children}</main>
-      </>
-    )
-  }
+  return (
+    <>
+      <Header />
+      <main>{children}</main>
+      <Footer />
+    </>
+  )
+}
